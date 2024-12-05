@@ -1,0 +1,1148 @@
+@font-face {
+    font-family: comic;
+    src: url(font/SweetieBubbleGum-Regular.ttf);
+}
+
+@font-face {
+    font-family: newo;
+    src: url(font/TT\ Trailers\ Trial\ Bold.ttf);
+}
+
+@font-face {
+    font-family: mynew;
+    src: url(font/Nunito-Bold.ttf);
+}
+
+
+
+* {
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
+
+    color: black;
+
+    transition: all 0.6s;
+
+}
+
+.zom{
+
+    animation: zooom 2s ease-in-out infinite;
+
+}
+
+.updn{
+
+    animation: updwn 2s ease-in-out infinite;
+
+}
+
+.fdin{
+    animation: fadeIn 2s ease-in-out infinite;
+}
+
+.spn{
+    animation: spining 4s ease-in-out infinite;
+}
+
+.zoming{
+
+    animation: zoming 4s ease-in-out infinite;
+
+}
+
+
+body {
+
+    background: white;
+    width: 100vw;
+    overflow-x: hidden;
+
+    font-family: mynew;
+
+
+}
+
+
+h4 {
+
+    font-size: 2vw;
+
+}
+
+h3 {
+
+    font-size: 1.8vw;
+    font-family: comic;
+
+}
+
+p {
+
+    font-size: 1.3vw;
+
+}
+
+
+
+main {
+
+    position: relative;
+
+}
+
+/* 
+header{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 1%;
+
+    background-color: aqua;
+
+    
+
+}
+
+.logo1{
+
+    height: 5vw;
+
+}
+
+.logo2{
+
+    height: 3vw;
+
+}
+
+header a{
+
+    background-color: red;
+    padding: 1% 2%;
+
+} */
+
+
+
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 1px solid #ccc; */
+    background-color: aqua;
+    padding: 0% 0% 0 1%;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1% 0 1%;
+    gap: 1vw;
+    width: 25%;
+    /* 1/5 of the header width */
+    /* border-right: 1px solid #ccc; */
+}
+
+.logo-img {
+    width: auto;
+    height: 4vw;
+    /* border-radius: 50%; */
+    margin-right: 10px;
+}
+
+.logo-text {
+    height: 2.5vw;
+    width: auto;
+
+}
+
+.nav {
+    width: 80%;
+    /* Remaining header width for navigation */
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+}
+
+.nav-list li {
+    flex: 1;
+    /* Equal width for all list items */
+    text-align: center;
+    border-left: 0.2vw solid black;
+}
+
+.nav-list a {
+    display: block;
+    padding: 10%;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-wrap: nowrap;
+    /* transition: background-color 0.3s, color 0.3s; */
+}
+
+.nav-list a:hover {
+    background-color: #ff786c;
+}
+
+.buy-link {
+    background-color: black;
+    color: white !important;
+}
+
+/* ........................................................ SECION 1............................... */
+
+.sect0 {
+
+    background: url(images/sky1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+
+    border-top: 0.3vw black solid;
+
+    padding: 10% 0 5% 0;
+
+}
+
+
+.main-hdng {
+
+    width: 80vw;
+
+}
+
+.s0-d1 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+
+    padding: 0 8%;
+
+}
+
+
+.s0-d1 div {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+}
+
+
+.s0-d1 div img {
+
+    height: 4.5vw;
+
+}
+
+.s0-d1 div img:hover {
+
+    scale: 1.1;
+
+}
+
+
+
+
+/* ........................................................ SECION 1............................... */
+
+
+.sect1 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+
+    width: 100vw;
+    height: 25vw;
+    border: 0.1vw solid black;
+
+
+}
+
+
+.s1-d1 {
+
+    width: 50%;
+
+    background: #ff786c;
+    height: 100%;
+    border: 0.1vw solid black;
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.s1-d1 img {
+
+
+    width: 35%;
+    margin: auto 0 auto 15%;
+
+
+}
+
+.s1-d2 {
+
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    border: 0.1vw solid black;
+
+
+
+
+}
+
+.s1-d21 {
+
+    background: #ffdfb0;
+    width: 100%;
+    height: 50%;
+    border: 0.1vw solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 0 0 0 5%;
+
+
+
+}
+
+.s1-d21 img {
+
+
+    width: 35%;
+    padding: 0 0 2% 0;
+
+}
+
+
+
+.s1-d22 {
+
+    background: #fdff9d;
+    width: 100%;
+    height: 50%;
+    border: 0.1vw solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 0 0 0 5%;
+    position: relative;
+    z-index: 3;
+
+
+}
+
+
+.s1-d22 img {
+
+
+    width: 35%;
+
+
+}
+
+
+
+
+/* ........................................................ SECION 2............................... */
+
+
+.sect2 {
+
+    background: url(images/sect2bg.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+
+}
+
+.s2d1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+    gap: 3vw;
+
+    margin: 10% 0;
+
+}
+
+.s2img1 {
+
+    width: 60vw;
+
+}
+
+.s2img2 {
+
+    width: 25vw;
+
+}
+
+
+
+.s2d2 {
+
+    width: 56vw;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.s2d22 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+
+    margin: 5% 0;
+
+}
+
+.s2d22 img {
+
+    width: 20vw;
+
+}
+
+
+
+
+
+
+
+/* .............................................TEXT SLIDER 1................................... */
+
+.t-slider1 {
+    border-top: 0.3vw solid #000000;
+    border-bottom: 0.3vw solid #000000;
+
+
+}
+
+.text-container {
+    overflow-x: hidden;
+    /* Hide overflow to create a sliding effect */
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    width: 100%;
+    /* Set container width */
+    border: solid black 1px 0 1px 0;
+
+    background-color: white;
+
+}
+
+/* Animated text */
+.animated-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    color: white;
+    animation: slide-left 8s linear infinite;
+    padding: 1vw;
+
+    font-family: comic;
+}
+
+
+.t-slider1 img {
+
+    width: 4vw;
+    margin: 0 1%;
+
+}
+
+
+
+
+/* ........................................................ SECION 3............................... */
+
+
+
+
+.sect3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vw;
+
+    overflow: hidden;
+    position: relative;
+
+}
+
+.sect3 img {
+
+    width: 200vw;
+
+    animation: rtate 5s ease infinite;
+
+}
+
+
+/* ........................................................ SECION 4............................... */
+
+
+.sect4 {
+
+    background: url(images/sky12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.s4d1 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 80vw;
+
+    height: 30vw;
+
+    gap: 2%;
+
+    margin: 10%;
+
+
+
+}
+
+.s4d1 div {
+
+    background: #f5f5f5;
+    border: 0.3vw solid black;
+
+    width: 35vw;
+
+    height: 100%;
+
+    border-radius: 3vw;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+
+
+}
+
+.s4d1img1 {
+
+    width: 80%;
+    margin: 5% 0 0 10%;
+
+}
+
+.s4d1img2 {
+
+    width: 35%;
+    margin: 1% 0 0 10%;
+
+}
+
+.s4d1img3 {
+
+    width: 30%;
+    margin: 15% 0 0 35%;
+
+
+}
+
+/* 
+.s4d12{
+
+    padding: 0 0 0 5%;
+
+} */
+
+.s4d12 img {
+
+    width: 35%;
+    margin: 5% 0 0 10%;
+
+
+}
+
+.s4d12 p {
+
+    margin: 5% 0 0 10%;
+
+
+}
+
+.s4d12 ol {
+
+    margin: 2% 0 0 10%;
+    width: 90%;
+
+}
+
+.s4d12 ol li {
+
+    margin: 2% 2% 2% 2%;
+    font-size: 1.3vw;
+
+}
+
+.s4d12 ol li strong {
+
+    font-size: 1.5vw;
+    font-weight: 900;
+
+}
+
+/* ........................................................BOXES............................... */
+
+
+.s4d2 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+
+}
+
+
+.s4d2img1 {
+
+    width: 80vw;
+    margin: 2%;
+
+}
+
+.s4d2img2 {
+
+    width: 100vw;
+    margin: 20% 0 0 0;
+
+}
+
+
+/* ........................................................ SECION 4............................... */
+
+.sect5 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+
+    border: solid 0.3vw black;
+
+    background: #00aaff;
+
+
+
+
+
+
+}
+
+
+.sect5 img {
+
+    width: 100%;
+    /* height: 5vw; */
+
+}
+
+.sect5 img:hover {
+
+    transform: translateY(-10%);
+
+}
+
+
+/* ........................................................ SECION 5............................... */
+
+
+
+.sect6 {
+
+    background: url(images/sky2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 70vw;
+
+}
+
+
+.sect6 div {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+
+}
+
+.s6d2 {
+
+    display: flex;
+    flex-direction: column !important;
+
+}
+
+.s6d2img1 {
+
+    width: 30vw;
+
+}
+
+.s6d2img2 {
+
+    width: 20vw;
+
+}
+
+.s6d2img2:hover {
+
+    scale: 1.1;
+
+}
+
+
+.s6img {
+
+    width: 20vw;
+
+}
+
+
+/* ........................................................ SECION 6............................... */
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    background-color: black;
+
+    font-family: newo;
+
+}
+
+.footer-links {
+    display: flex;
+    flex: 5;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: auto;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15%;
+    transition: color 0.3s;
+}
+
+.footer-link.active {
+    color: #00aaff;
+    scale: 1.05;
+}
+
+.footer-link:hover {
+    color: #00aaff;
+    scale: 1.1;
+
+
+}
+
+.footer-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 3vw;
+    flex-wrap: wrap;
+    flex: 2;
+
+}
+
+.icon {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 1vw;
+
+}
+
+.icon img {
+    width: 4vw;
+    border-radius: 1vw;
+
+}
+
+.icon img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #00aaff;
+}
+
+.lstftr hr{
+
+    width: 90% !important;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.lstftr {
+
+background: black;
+text-align: center;
+}
+
+.lstftr p {
+
+color: white !important;
+padding: 2% 5% 1% 0 ;
+
+
+}
+
+
+/* ........................................................ FOOTER............................... */
+
+/* ........................................................ POSITION ABSOLUTE............................... */
+
+
+.posabs{
+
+    position: absolute;
+
+}
+
+.cat1{
+
+    top: 14.45%;
+    left: 25%;
+    width: 25vw;
+    z-index: 2;
+
+}
+
+.cat2{
+
+    top: 14.5%;
+    right: 5%;
+    width: 17vw;
+    z-index: 2;
+
+}
+
+.cat3{
+
+    top: 16.7%;
+    right: 5%;
+    width: 15vw;
+    z-index: 2;
+
+}
+
+
+.hbg{
+
+    top: 20.5%;
+    left: 33%;
+    width: 30vw;
+    z-index: -1;
+
+}
+
+
+.cat4{
+
+    top: 24%;
+    right: 5%;
+    width: 30vw;
+    z-index: -1;
+
+}
+
+.cat5{
+
+    top: 32%;
+    left: 1%;
+    width: 33vw;
+    z-index: -1;
+
+}
+
+
+.tv1{
+
+    top: 42%;
+    left: 5%;
+    width: 25vw;
+    z-index: 1;
+
+}
+
+.tv2{
+
+    top: 42%;
+    right: 5%;
+    width: 25vw;
+    z-index: 1;
+
+}
+
+.tv3{
+
+    top: 39.5%;
+    left: 38%;
+    width: 25vw;
+    z-index: 1;
+    
+}
+
+.cat6{
+
+    top: 43%;
+    left: 30%;
+    width: 38vw;
+    z-index: 0 ;
+
+}
+
+.cat7{
+
+    top: 66.6%;
+    left: 7%;
+    width: 28vw;
+    z-index: 1   ;
+
+}
+.cat8{
+
+    top: 66.6%;
+    left: 37%;
+    width: 28vw;
+    z-index: 1   ;
+
+}.cat9{
+
+    top: 66.5%;
+    right: 3%;
+    width: 33vw;
+    z-index: 1   ;
+
+}
+
+.swrl1{
+
+    top: 78%;
+    left: 40%;
+    width: 20vw;
+    z-index: 1   ;
+
+}
+
+
+.swrl2{
+
+    top: 88.5%;
+    left: 40%;
+    width: 20vw;
+    z-index: 1   ;
+
+}
+
+.hd1{
+
+    top: 43.5%;
+    left: 11%;
+    width: 12vw;
+    z-index: 1  ;
+
+}
+
+.hd2{
+
+    top: 41%;
+    left: 43.5%;
+    width: 13vw;
+    z-index: 1  ;
+
+}
+.hd3{
+
+    top: 43.5%;
+    right: 9%;
+    width: 18vw;
+    z-index: 1  ;
+
+}
+
+.para1{
+
+    top: 45%;
+    left: 8.5%;
+    width: 18vw;
+    z-index: 1  ;
+    text-align: center;
+
+
+}
+
+
+.para2{
+
+    top: 42.2%;
+    left: 41%;
+    width: 18vw;
+    z-index: 1  ;
+    text-align: center;
+    
+
+}
+
+
+.para3{
+
+    top: 44.7%;
+    right: 9%;
+    width: 18vw;
+    z-index: 1  ;
+    text-align: center;
+
+
+}
